@@ -1,0 +1,36 @@
+/* Table Styles */
+table {
+    width: 70%;  
+    border-collapse: collapse;  
+    font-size: 12px; 
+    border: 1px solid rgb(222, 226, 230);  
+    border-radius: 2px; 
+    margin-left: 12px;
+    margin-bottom: 25px;
+   }
+  
+  th, td {
+    height: 24px;  
+    padding: 8px;  
+    border: 1px solid rgb(222, 226, 230);  
+    text-align: left;  
+  }
+  
+  th {
+    font-weight: 700;  
+  }
+  
+   th, td:nth-child(1) {
+    width: 2%;
+  }
+  th, td:nth-child(2) {
+    width: 10%;
+  }
+  th, td:nth-child(3) {
+    width: 5%;
+  }
+  
+
+  .Showerror{
+    color: red;
+  }
